@@ -29,8 +29,15 @@
     ],
     "autoload": {
         "psr-4": {
-            "Nettantra\\FilamentSliderInputField\\": "src/"
+            "NetTantra\\FilamentSliderInputField\\": "src/"
         }
+    },
+    "scripts": {
+        "post-autoload-dump": "@php package:discover --ansi",
+        "analyse": "vendor/bin/phpstan analyse",
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage",
+        "format": "vendor/bin/pint"
     },
     "authors": [
         {
@@ -39,9 +46,18 @@
         }
     ],
     "config": {
-        "allow-plugins": {
-            "pestphp/pest-plugin": true,
-            "phpstan/extension-installer": true
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NetTantra\\FilamentSliderInputField\\FilamentSliderInputFieldServiceProvider"
+            ],
+            "aliases": {
+                "FilamentSliderInputField": "NetTantra\\FilamentSliderInputField\\Facades\\FilamentSliderInputField"
+            }
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
