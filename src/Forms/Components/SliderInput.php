@@ -4,7 +4,7 @@ namespace NetTantra\FilamentSliderInputField\Forms\Components;
 
 use Filament\Forms\Components\TextInput;
 
-class SliderInputInput extends TextInput
+class SliderInput extends TextInput
 {
     protected string $view = 'filament-slider-input-field::forms.components.slider-input';
 
