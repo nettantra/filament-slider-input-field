@@ -1,7 +1,5 @@
 @once
-    @push('scripts')
-        <x-livewire-range-slider::scripts />
-    @endpush
+    <x-livewire-range-slider::scripts />
 @endonce
 
 @php
