@@ -1,6 +1,6 @@
 {
     "name": "nettantra/filament-slider-input-field",
-    "description": "This is a wrapper around noUiSlider (https://refreshless.com/nouislider/) which allows creating a slider field on Filament Forms.",
+    "description": "This is a wrapper around noUiSlider which allows creating a slider field on Filament Forms.",
     "require": {
         "php": "^8.0|^8.1",
         "filament/forms": "^2.16",
