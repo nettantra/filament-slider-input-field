@@ -20,7 +20,7 @@
         "phpstan/phpstan-phpunit": "^1.0",
         "phpunit/phpunit": "^9.5"
     },
-    "license": "MIT License",
+    "license": "MIT",
     "repositories": [
         {
             "type": "vcs",
