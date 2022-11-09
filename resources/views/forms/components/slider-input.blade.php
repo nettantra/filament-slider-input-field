@@ -1,3 +1,9 @@
+@once
+    @push('scripts')
+        <x-livewire-range-slider::scripts />
+    @endpush
+@endonce
+
 @php
     $datalistOptions = $getDatalistOptions();
 
