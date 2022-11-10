@@ -1,6 +1,6 @@
 # Slider Input Field for Filament Forms
 
-This is a wrapper around noUiSlider (https://refreshless.com/nouislider/) which allows creating a slider field on Filament Forms.
+This is a wrapper around [noUiSlider](https://refreshless.com/nouislider/) which allows creating a slider field on Filament Forms.
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/nettantra/filament-slider-input-field.svg?style=flat-square)](https://packagist.org/packages/nettantra/filament-slider-input-field)
 [![Total Downloads](https://img.shields.io/packagist/dt/nettantra/filament-slider-input-field.svg?style=flat-square)](https://packagist.org/packages/nettantra/filament-slider-input-field)
