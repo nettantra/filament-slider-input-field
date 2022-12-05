@@ -24,7 +24,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/nettantra/livewire-range-slider"
+            "url": "https://github.com/nettantra/livewire-range-slider.git"
         }
     ],
     "autoload": {
