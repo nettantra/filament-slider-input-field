@@ -1,12 +1,18 @@
 {
     "name": "nettantra/filament-slider-input-field",
     "description": "This is a wrapper around noUiSlider which allows creating a slider field on Filament Forms.",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nettantra/livewire-range-slider"
+        }
+    ],
     "require": {
         "php": "^8.0|^8.1",
         "filament/forms": "^2.16",
         "illuminate/contracts": "^9.0",
         "spatie/laravel-package-tools": "^1.13.0",
-        "jantinnerezo/livewire-range-slider": "^1.0.1"
+        "jantinnerezo/livewire-range-slider": "dev-fix-issue-12"
     },
     "require-dev": {
         "laravel/pint": "^1.0",
@@ -21,12 +27,6 @@
         "phpunit/phpunit": "^9.5"
     },
     "license": "MIT",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/nettantra/livewire-range-slider"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "NetTantra\\FilamentSliderInputField\\": "src/"
