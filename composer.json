@@ -23,8 +23,16 @@
     "license": "MIT",
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/nettantra/livewire-range-slider"
+            "type": "package",
+            "package": {
+                "name": "jantinnerezo/livewire-range-slider",
+                "version": "dev-fix-issue-12",
+                "source": {
+                    "url": "https://github.com/nettantra/livewire-range-slider.git",
+                    "type": "git",
+                    "reference": "c7545933"
+                }
+            }
         }
     ],
     "autoload": {
