@@ -72,7 +72,7 @@
         @endif
 
         <div class="flex-1 relative">
-            <div class="filament-slider-input py-12 px-5 rounded border relative z-10">
+            <div class="filament-slider-input py-12 px-5 rounded border relative z-9">
                 <x-range-slider
                     id="{{ $field_id }}"
                     :options="$range_slider_options"
@@ -81,7 +81,7 @@
                     wire:key="oa-slider-{{ $field_id }}"
                     />
                 @if ($isDisabled())
-                    <div class="filament-slider-input-disable-block-ui absolute w-full h-full inset-0 z-10 cursor-not-allowed"></div>
+                    <div class="filament-slider-input-disable-block-ui absolute w-full h-full inset-0 z-9 cursor-not-allowed"></div>
                 @endif
             </div>
 
